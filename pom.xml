@@ -1,11 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
-  <servers/>
-</settings>
-
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-project</groupId>
@@ -26,13 +21,6 @@
     <module>webapp</module>
   </modules>
          
-<servers>
- <server>
-  <id>releases</id>
-  <username>admin</username>
-  <password>admin</password>
- </server>
-</servers>
 
  <distributionManagement>
   <repository>
@@ -42,6 +30,8 @@
  <snapshotRepository>
     <id>snapshots</id>
     <url> http://192.168.1.3:8080/job/deploy/ws/server/target//snapshots/</url>
+    <username>admin</username>
+    <password>admin</password>
   </snapshotRepository>
 </distributionManagement>
 
