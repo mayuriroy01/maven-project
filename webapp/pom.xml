@@ -26,6 +26,12 @@
     </plugins>
   </build>
          
+ <server>
+  <id>releases</id>
+  <username>admin</username>
+  <password>admin</password>
+</server>
+         
  <distributionManagement>
   <repository>
     <id>releases</id>
