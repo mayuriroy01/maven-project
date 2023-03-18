@@ -21,7 +21,11 @@
     <module>webapp</module>
   </modules>
 
- 
+ <server>
+  <id>releases</id>
+  <username>admin</username>
+  <password>admin</password>
+</server><br>
 
  <distributionManagement>
   <repository>
