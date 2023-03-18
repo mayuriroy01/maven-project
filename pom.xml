@@ -20,12 +20,14 @@
     <module>server</module>
     <module>webapp</module>
   </modules>
-
+         
+<servers>
  <server>
   <id>releases</id>
   <username>admin</username>
   <password>admin</password>
-</server>
+ </server>
+</servers>
 
  <distributionManagement>
   <repository>
