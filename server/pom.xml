@@ -23,7 +23,7 @@
    <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
+      <url>file:///C:\Users\HP\Documents</url>
    </site>
   </distributionManagement>
 
