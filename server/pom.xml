@@ -20,11 +20,11 @@
   </build>
   
   <distributionManagement>
-   <site>
+    <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>file:///C:\Users\HP\Documents</url>
-   </site>
+      <url>https://github.com/mayuriroy01/maven-project.gite</url>
+    </site>
   </distributionManagement>
 
   <dependencies>
