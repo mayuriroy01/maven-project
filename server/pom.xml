@@ -45,4 +45,12 @@
     </dependency>
   </dependencies>
 
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>https://github.com/mayuriroy01/maven-project/tree/master/server</url>
+       </repository>
+   </distributionManagement>
+
 </project>
