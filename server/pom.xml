@@ -18,12 +18,14 @@
   <build>
     <finalName>${project.artifactId}</finalName>
   </build>
-  
+ 
+ <servers>
   <server>
        <id>releases</id>
        <username>admin</username>
        <password>admin</password>
   </server>
+ </servers>
          
   <distributionManagement>
   <repository>
